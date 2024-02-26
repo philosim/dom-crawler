@@ -97,6 +97,17 @@ abstract class FormField
     }
 
     /**
+     * Gets the Dom Node of the field.
+     *
+     * @return DOMElement
+     */
+    public function getNode()
+    {
+        return $this->node;
+    }
+    
+
+    /**
      * Sets the value of the field.
      */
     public function setValue(?string $value)
